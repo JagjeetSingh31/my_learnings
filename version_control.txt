@@ -1,0 +1,58 @@
+First Day:
+
+-- created my account on git.
+-- installed the git on my system.
+   - installing process:
+     -> go to official Git website ->  https://git-scm.com/ -> click on downloads -> select your operating system (mine was windows) -> after download process install it.
+
+-- Creating repositories:
+   -> opened my GitHub profile -> clicked on repositories -> click on new -> adding name of repository (my_learnings) -> made it private -> click on create repository.
+
+   -> created one more repository named example and made it public. // following the same procedure we did in creating my_learnings repository.
+
+
+---- First Time Setup----
+
+-- checking the version installed correctly by command (git --version) // will display the version you installed.
+
+-- setting global configuration variables:
+  -> git config --global user.name "JagjeetSingh31"
+  -> git config --global user.email "taggarjaggi3123@gmail.com"
+
+-- to check my config values are listed:
+  -> git config --list // will list all of our configuration values.
+
+-- created the folder name dev in my desktop.
+
+---- Cloning a remote repository ----
+ 
+-- git clone https://github.com/JagjeetSingh31/my_learnings.git // go to repository in GitHub and copy the url.
+-- dir // running this command to check is the directory created in the system or not!!
+
+
+
+---- Created version_control file in my_learnings repo ----
+ 
+-> Go to command promt
+-> git status // by running this command it will show you files you created in your repo (version_control.txt)
+              // nothing added to commit but untracked files present (use "git add" to track)
+              // will display you the above line which means to add the untracked files and make them track
+
+-> git add version_control.txt // now our files comes into the staging area
+
+-> git commit -m "my first commit" // here -m means message and message name is "my first commit"
+                                   // it would commit changes to our repository
+
+-> git status // On branch main
+              // Your branch is ahead of 'origin/main' by 1 commit.
+              // (use "git push" to publish your local commits)   
+ 
+-> git push -u origin main // we have push the file in our remote repository
+
+
+
+
+
+------ Now I have created the documentation of my first day learnings, I am going to save this in version_control file and save it, then I will Add -> commit -> push the file in my_learnigs repo ------ 
+
+
